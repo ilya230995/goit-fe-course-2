@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
 }
-*, *::after *::before {
+*, *::after, *::before {
     box-sizing: inherit;
 }
 body {
@@ -18,7 +18,8 @@ header {
     padding-top: 70px;
 }
 .site_navigation {
-    text-align: center
+    text-align: center;
+    padding: 0;
 }
 .navigation_item {
     display: inline-block;
@@ -56,9 +57,12 @@ header {
     font-family: Ubuntu;
     color: #b4ad9e;
     text-transform: uppercase;
+    font-weight: 400;
+    
 }
 .article_content h2 {
     font-size: 30px;
+    font-weight: 400;
 }
 button {
     display: block;
