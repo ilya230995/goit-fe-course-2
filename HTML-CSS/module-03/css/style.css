@@ -24,18 +24,18 @@ header {
 .navigation_item {
     display: inline-block;
     margin-bottom: 104px;
-    padding-right: 112px;
+    margin-right: 112px;
     line-height: 24px;
     text-transform: uppercase;
 }
 .navigation_item:nth-child(4) {
-    padding-right: 0px;
+    margin-right: 0px;
 }
 .navigation_item a {
     text-decoration: none;
     color: #626262;
 }
-.navigation_item.active a:hover {
+.navigation_item a:hover {
     color: #03a9f4;
 }
 .article_list {
@@ -57,7 +57,7 @@ header {
     font-family: Ubuntu;
     color: #b4ad9e;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     
 }
 .article_content h2 {
